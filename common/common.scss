@@ -198,6 +198,8 @@ div.ac-wrap {
   border-radius: 4px;
 }
 .d-header {
+  background-color: var(--tertiary);
+  border-radius: 0px, 0px, 10px, 10px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
 }
 
@@ -285,20 +287,21 @@ html {
     //   ),
     //   linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
   }
-  // .background-container {
-  //   position: fixed;
-  //   top: 0;
-  //   left: 0;
-  //   height: 100vh;
-  //   width: 100vw;
-  //   background-color: var(--tertiary);
-  //   // background: linear-gradient(
-  //   //   90deg,
-  //   //   var(--tertiary-hover) 0%,
-  //   //   var(--tertiary) 100%
-  //   // );
-  //   clip-path: ellipse(148% 70% at 91% -14%);
-  // }
+  .background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.access-nri.org.au/wp-content/uploads/2022/03/Unsplash-Australian-Beach-Raph-howald-1440x500");
+    // background-color: rgba(var(--tertiary-rgb), 0.075);
+    // background: linear-gradient(
+    //   90deg,
+    //   var(--tertiary-hover) 0%,
+    //   var(--tertiary) 100%
+    // );
+    clip-path: ellipse(148% 70% at 91% -14%);
+  }
   body.no-ember .background-container {
     display: none;
   }

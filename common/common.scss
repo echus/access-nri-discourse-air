@@ -61,7 +61,7 @@
 .search-input {
   border-radius: 10px;
   border: 0px;
-  background-color: var(--background) !important;
+  background-color: $background;
 }
 
 .display-search-banner {
@@ -268,7 +268,7 @@ div.ac-wrap {
 html {
   body:not(.no-ember) {
     font-family: Inter;
-    background-color: var(--background);
+    background-color: $background;
     // background: linear-gradient(
     //     0deg,
     //     rgba(var(--primary-rgb), 0.075) 0%,

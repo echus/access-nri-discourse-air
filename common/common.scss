@@ -3,6 +3,13 @@
   src: url($vogue-bold-font) format("opentype");
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url($inter-font) format("opentype supports variations"),
+       url($inter-font) format("opentype-variations");
+  font-weight: 100 900;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 // custom search banner customizations
@@ -16,7 +23,7 @@
   }
   p {
     font-size: 1.25em !important;
-    font-weight: bold;
+    font-weight: medium;
     margin-bottom: 1em;
   }
   .btn {

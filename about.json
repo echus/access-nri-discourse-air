@@ -3,7 +3,8 @@
   "about_url": null,
   "license_url": null,
   "assets": {
-       "vogue-bold-font": "assets/vogue_bold.ttf"
+       "vogue-bold-font": "assets/vogue_bold.ttf",
+       "inter-font": "assets/inter.ttf"
   },
   "components": [
     "https://github.com/jordanvidrine/discourse-category-group-boxes.git",

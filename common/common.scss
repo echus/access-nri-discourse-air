@@ -50,6 +50,11 @@ $background: whitesmoke;
     // border-color: var(--tertiary-hover);
     // outline: 1px solid var(--tertiary-hover);
     background-color: $background;
+    &:focus-within {
+      border: none;
+      outline: none !important;
+    }
+    outline: none !important;
   }
   .results {
     top: 43px;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Vogue Bold";
-  src: url(var(--vogue-bold-font)) format("opentype");
+  src: url($vogue-bold-font) format("opentype");
 }
 
 // custom search banner customizations

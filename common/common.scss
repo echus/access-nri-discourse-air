@@ -49,6 +49,7 @@ $background: whitesmoke;
   .search-menu .search-input {
     // border-color: var(--tertiary-hover);
     // outline: 1px solid var(--tertiary-hover);
+    background-color: $background;
   }
   .results {
     top: 43px;

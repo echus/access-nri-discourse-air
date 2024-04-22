@@ -47,9 +47,6 @@
   .search-menu .search-input {
     // border-color: var(--tertiary-hover);
     // outline: 1px solid var(--tertiary-hover);
-    border-radius: 10px;
-    border: 0px;
-    background-color: var(--background) !important;
   }
   .results {
     top: 43px;
@@ -62,7 +59,9 @@
 }
 
 .search-input {
-  border-radius: 0.25em;
+  border-radius: 10px;
+  border: 0px;
+  background-color: var(--background) !important;
 }
 
 .display-search-banner {

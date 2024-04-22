@@ -2,6 +2,9 @@
   "name": "ACCESS-NRI Theme",
   "about_url": null,
   "license_url": null,
+  "assets": {
+       "vogue-bold-font": "assets/vogue_bold.ttf"
+  },
   "components": [
     "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
     "https://github.com/discourse/discourse-clickable-topic.git",

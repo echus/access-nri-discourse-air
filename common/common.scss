@@ -21,8 +21,7 @@
   }
   p {
     font-size: 1.25em !important;
-    font-variation-settings: "opsz" 32, "wght" 300;
-    font-weight: medium;
+    font-variation-settings: "opsz" 32, "wght" 430;
     margin-bottom: 1em;
   }
   .btn {
@@ -46,8 +45,13 @@
     }
   }
   .search-menu .search-input {
-    border-color: var(--tertiary-hover);
-    outline: 1px solid var(--tertiary-hover);
+    // border-color: var(--tertiary-hover);
+    // outline: 1px solid var(--tertiary-hover);
+    border-radius: 10px;
+    border: 0px;
+    .search-term {
+      background-color: var(--background);
+    }
   }
   .results {
     top: 43px;

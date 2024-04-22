@@ -1,9 +1,15 @@
+@font-face {
+  font-family: "Vogue Bold";
+  src: url("/assets/vogue_bold.ttf") format("opentype");
+}
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
   color: var(--secondary);
   h1 {
+    font-family: "Vogue Bold";
     font-size: 4em;
   }
   p {

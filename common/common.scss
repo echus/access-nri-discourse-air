@@ -3,6 +3,8 @@
   src: url($vogue-bold-font) format("opentype");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
@@ -258,6 +260,7 @@ div.ac-wrap {
 
 html {
   body:not(.no-ember) {
+    font-family: Inter;
     background-color: var(--background);
     // background: linear-gradient(
     //     0deg,

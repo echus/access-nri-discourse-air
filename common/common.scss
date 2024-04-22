@@ -49,9 +49,7 @@
     // outline: 1px solid var(--tertiary-hover);
     border-radius: 10px;
     border: 0px;
-    .search-term {
-      background-color: var(--background);
-    }
+    background-color: var(--background) !important;
   }
   .results {
     top: 43px;
